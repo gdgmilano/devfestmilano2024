@@ -28,7 +28,7 @@ if (!firebaseConfig) {
 export const firebaseApp = initializeApp(firebaseConfig);
 export const db: Firestore = initializeFirestore(firebaseApp, {
   localCache: persistentLocalCache(),
-});
+}, 'devfest-2025');
 export const performance = getPerformance(firebaseApp);
 export const analytics = getAnalytics(firebaseApp);
 
