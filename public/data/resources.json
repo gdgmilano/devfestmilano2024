@@ -1,5 +1,5 @@
 {
-  "title": "DevFest Milano 2024",
+  "title": "DevFest Milano 2025",
   "description": "The most exciting community tech event in Milan this fall!",
   "image": "/images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
@@ -53,11 +53,6 @@
         {
           "name": "GDG Cloud Milano",
           "url": "https://gdg.community.dev/gdg-cloud-milano/",
-          "newTab": true
-        },
-        {
-          "name": "GDG on Campus PoliMi",
-          "url": "https://gdg.community.dev/gdg-on-campus-polytechnic-university-of-milan",
           "newTab": true
         }
       ]
@@ -198,7 +193,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Milano](https://gdg.community.dev/gdg-milano/), [GDG Cloud Milano](https://gdg.community.dev/gdg-cloud-milano/) and [GDG on Campus PoliMi](https://gdg.community.dev/gdg-on-campus-polytechnic-university-of-milan) are open and volunteer geek communities who create exciting projects and share experience about Google technologies with a passion."
+    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Milano](https://gdg.community.dev/gdg-milano/) and [GDG Cloud Milano](https://gdg.community.dev/gdg-cloud-milano/) are open and volunteer geek communities who create exciting projects and share experience about Google technologies with a passion."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -262,7 +257,7 @@
     "blocks": [
       {
         "title": "Organizers",
-        "description": "A joint effort between 3 of the most active tech groups in Milan: <a href='https://gdg.community.dev/gdg-milano' target='_blank'>GDG Milano</a>, <a href='https://gdg.community.dev/gdg-cloud-milano' target='_blank'>GDG Cloud Milano</a> and <a href='https://gdg.community.dev/gdg-on-campus-polytechnic-university-of-milan' target='_blank'>GDG on Campus PoliMi</a>, with support from Google, Italian GDGs, and our amazing Sponsors",
+        "description": "A joint effort between 3 of the most active tech groups in Milan: <a href='https://gdg.community.dev/gdg-milano' target='_blank'>GDG Milano</a> and <a href='https://gdg.community.dev/gdg-cloud-milano' target='_blank'>GDG Cloud Milano</a> with support from Google, Italian GDGs, and our amazing Sponsors",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
