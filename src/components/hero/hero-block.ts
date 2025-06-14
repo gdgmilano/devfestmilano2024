@@ -103,7 +103,6 @@ export class HeroBlock extends ThemedElement {
         <div class="container">
           <div class="hero-content">
             <slot></slot>
-            <a href=\"https://sessionize.com/devfest-milano-2025">   <paper-button primary>Call for Papers</paper-button> </a>
           </div>
         </div>
       </div>
