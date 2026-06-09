@@ -46,14 +46,21 @@ A small, idempotent build step, `build-home-2025look.mjs`, run once:
    2025 repo. (`images/backgrounds/home.jpg`, `images/logo.png`,
    `images/logo-monochrome.png`, manifest icons, the hashed `/assets/*` used by
    the home, and the home CSS are all already present.)
-3. **De-2025 the copied HTML**, reusing the same replacement logic as
-   `de2025.mjs`:
+3. **De-2025 the copied HTML.** Apply replacements in this order (specific →
+   general) so canonical/social URLs point at the real 2024 domain:
+   - `https://devfest-milano-2025.web.app` → `https://2024.devfestmilano.it`
+     (covers `config-url`, `canonical`, and `twitter:image`, including the
+     `.web.app//images/...` double-slash case — the prefix replace fixes the
+     host and leaves `/images/social-share.jpg`)
+   - `https://devfestmilano.it/` (the 2025 `og:url`) → `https://2024.devfestmilano.it/`
    - `DevFest Milano 2025` → `DevFest Milano 2024`
    - `October 11, 2025` → `November 23, 2024`
    - `2025-10-11` → `2024-11-23`
-   - `devfest-milano-2025` → `devfest-milano-2024`
-   - `2025.web.app` → `2024.web.app` (canonical/og/social URLs)
+   - `devfest-milano-2025` → `devfest-milano-2024` (any leftover non-URL refs)
    - remaining word-bounded `\b2025\b` → `2024`
+
+   Note: the live 2024 domain is `2024.devfestmilano.it` (its `CNAME`), so the
+   canonical/og/twitter URLs must use it — NOT a `.web.app` host.
 4. The source path of the 2025 repo is a parameter (env `SRC_2025`, default
    `/Users/dave/Projects/devfestmilano2025`) so the script isn't tied to one
    machine layout.
@@ -90,6 +97,9 @@ After running, assert on the produced 2024 root `index.html`:
 - contains `DevFest Milano 2024`, the hero markup (`hero-image`,
   `backgrounds/home.jpg`, `hero-logo`), and the 2024 date.
 - contains **zero** `2025` / `devfest-milano-2025` references.
+- canonical / `config-url` / `og:url` / `twitter:image` all use the
+  `https://2024.devfestmilano.it` host (no `.web.app`, no bare
+  `devfestmilano.it`).
 - contains **zero** `<script>` tags.
 - nav links `/speakers /schedule /coc /faq /location /team` present and resolve
   to existing pages/dirs in the 2024 root.
