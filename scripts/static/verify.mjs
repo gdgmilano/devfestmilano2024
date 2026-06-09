@@ -4,11 +4,16 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { OUT_DIR, DATA_DIR } from './config.mjs';
 
+// Directories that are not part of the published site (data dumps, tooling,
+// build sources, version control). When OUT_DIR is the repo root these would
+// otherwise pull in node_modules/docs/scripts HTML and skew the checks.
+const SKIP_DIRS = new Set(['data', 'assets', 'node_modules', 'scripts', 'docs', '.git']);
+
 async function walkHtml(dir, acc = []) {
   for (const entry of await readdir(dir, { withFileTypes: true })) {
     const p = join(dir, entry.name);
     if (entry.isDirectory()) {
-      if (entry.name === 'data' || entry.name === 'assets') continue;
+      if (SKIP_DIRS.has(entry.name)) continue;
       await walkHtml(p, acc);
     } else if (entry.name.endsWith('.html')) {
       acc.push(p);
