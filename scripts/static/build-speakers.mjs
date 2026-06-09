@@ -5,7 +5,7 @@
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { OUT_DIR, DATA_DIR } from './config.mjs';
-import { localFor } from './asset-path.mjs';
+import { resolveAssetRef } from './asset-path.mjs';
 import { SITE_TITLE, esc, header, footer, head } from './template-common.mjs';
 
 function page(sp, photoLocal, sessions) {
@@ -59,12 +59,11 @@ export async function buildSpeakers() {
   const assets = new Map();
   const gen = async (list, base) => {
     for (const sp of list) {
-      const orig = sp.photoUrl || sp.photo;
+      const ref = resolveAssetRef(sp.photoUrl || sp.photo);
       let photoLocal = null;
-      if (orig) {
-        const abs = /^https?:/.test(orig) ? orig : `https://devfestmilano.it${orig}`;
-        photoLocal = localFor(abs);
-        if (photoLocal) assets.set(photoLocal, abs);
+      if (ref) {
+        photoLocal = ref.local;
+        if (ref.remote) assets.set(ref.local, ref.remote);
       }
       const html = page(sp, photoLocal, talksBySpeaker[sp.id] || []);
       const dir = join(OUT_DIR, base, sp.id);

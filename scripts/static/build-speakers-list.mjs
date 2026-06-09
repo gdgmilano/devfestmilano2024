@@ -2,7 +2,7 @@
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { OUT_DIR, DATA_DIR } from './config.mjs';
-import { localFor } from './asset-path.mjs';
+import { resolveAssetRef } from './asset-path.mjs';
 import { SITE_TITLE, esc, header, footer, head } from './template-common.mjs';
 
 export async function buildSpeakersList() {
@@ -11,12 +11,11 @@ export async function buildSpeakersList() {
 
   const cards = speakers.map((sp) => {
     const role = [sp.title, sp.company].filter(Boolean).join(' · ');
-    const orig = sp.photoUrl || sp.photo;
+    const ref = resolveAssetRef(sp.photoUrl || sp.photo);
     let photo = '';
-    if (orig) {
-      const abs = /^https?:/.test(orig) ? orig : `https://devfestmilano.it${orig}`;
-      const local = localFor(abs);
-      if (local) { assets.set(local, abs); photo = local; }
+    if (ref) {
+      if (ref.remote) assets.set(ref.local, ref.remote);
+      photo = ref.local;
     }
     return `<a class="card" href="/speakers/${esc(sp.id)}">
       ${photo ? `<img src="${esc(photo)}" alt="${esc(sp.name)}">` : ''}

@@ -2,7 +2,7 @@
 import { writeFile, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { OUT_DIR, DATA_DIR, YEAR } from './config.mjs';
-import { localFor } from './asset-path.mjs';
+import { resolveAssetRef } from './asset-path.mjs';
 import { SITE_TITLE, esc, header, footer, head } from './template-common.mjs';
 import { mergeAssets } from './build-speakers-list.mjs';
 
@@ -13,13 +13,10 @@ export async function buildHome() {
 
   const partnerBlocks = partners.map((g) => {
     const logos = (g.items || []).map((it) => {
-      const orig = it.logoUrl || it.logo;
-      if (!orig) return '';
-      const abs = /^https?:/.test(orig) ? orig : `https://devfestmilano.it${orig}`;
-      const local = localFor(abs);
-      if (!local) return '';
-      assets.set(local, abs);
-      const img = `<img src="${esc(local)}" alt="${esc(it.name || g.title)}">`;
+      const ref = resolveAssetRef(it.logoUrl || it.logo);
+      if (!ref) return '';
+      if (ref.remote) assets.set(ref.local, ref.remote);
+      const img = `<img src="${esc(ref.local)}" alt="${esc(it.name || g.title)}">`;
       return it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${img}</a>` : img;
     }).join('');
     return logos ? `<section><h2>${esc(g.title)}</h2><div class="partners">${logos}</div></section>` : '';
