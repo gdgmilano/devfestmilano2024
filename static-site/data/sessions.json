@@ -1,0 +1,410 @@
+[
+  {
+    "id": "100000",
+    "icon": "registration",
+    "description": "Get your badge, coffee, enjoy talking with tech edicts around!",
+    "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+    "title": "Registration & morning Coffee"
+  },
+  {
+    "id": "100001",
+    "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
+    "icon": "opening",
+    "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
+    "title": "GDG DevFest Milano 2024 Opening",
+    "language": "English"
+  },
+  {
+    "id": "100002",
+    "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+    "title": "Morning coffee",
+    "icon": "coffee-break",
+    "description": "Coffeeeeeee!"
+  },
+  {
+    "id": "100003",
+    "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
+    "title": "Lunch",
+    "icon": "lunch",
+    "description": "Foooooooood!"
+  },
+  {
+    "id": "100004",
+    "title": "Coffee break",
+    "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
+    "description": "Coffeeeeeee!",
+    "icon": "coffee-break"
+  },
+  {
+    "id": "100005",
+    "title": "Conference closing and contest winners announcements",
+    "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
+    "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session."
+  },
+  {
+    "id": "716509",
+    "description": "90% of new projects and ideas end up failing in the market, with the majority among these failing due to a lack of user need. Resources are being spent building something nobody wants. A few years ago the former Google Innovation Agitator, Alberto Savoia, introduced a technique called “pretotyping”, designed to quickly sample market interest before committing resources to a new idea or project.        In this talk we’ll explore how pretotypes can help startups spot ideas worth pursuing, and specifically how we used it to kickstart an innovative consumer app in the traveltech space. With a combination of techniques like Mechanical Turk and Fake Doors, we managed to gather over a thousand early adopters without a single piece of product.         We’ll talk about lessons learnt, tricks we found particularly effective and caveats we had to learn the hard way.",
+    "complexity": "Intermediate",
+    "title": "Pretotyping in the real world - quickly iterating between good and bad startup ideas",
+    "tags": [
+      "AI"
+    ],
+    "speakers": [
+      "simone_colucci"
+    ],
+    "language": "Italian"
+  },
+  {
+    "id": "718356",
+    "speakers": [
+      "matteo_guidotto"
+    ],
+    "language": "Italian",
+    "tags": [
+      "Soft Skills"
+    ],
+    "title": "From Bits to Boss: Engineering the Ideal Tech Lead",
+    "complexity": "Intermediate",
+    "description": "Sometimes being the best in technical skills isn't enough to be a successful tech leader or... It's not important at all!!!     In this talk, we'll explore the essential qualities and skills that make a perfect tech lead, beyond just technical prowess. We'll delve into leadership techniques, effective communication, team management, and the importance of empathy and emotional intelligence."
+  },
+  {
+    "id": "721902",
+    "tags": [
+      "Web"
+    ],
+    "language": "English",
+    "speakers": [
+      "talia_asghar"
+    ],
+    "complexity": "Intermediate",
+    "description": "Join Talia for a great session on the importance of accessibility in web development. Discover how accessibility can transform the online experience for people with disabilities and learn about the various types of disabilities that can affect web users. Talia will provide practical insights and actionable steps that developers can take to make the web more inclusive and accessible to everyone, whether they face temporary or permanent challenges.        By the end of this talk, you'll be equipped with the knowledge to create your own accessibility checklist, aligned with web standards, to ensure that accessibility becomes a seamless part of your development process.",
+    "title": "A11y: Making the Web Inclusive by default"
+  },
+  {
+    "id": "724316",
+    "title": "Dealing with GenAI agents and rapid-fire messaging",
+    "complexity": "Intermediate",
+    "description": "Design strategies for a distributed message buffer    with Redis",
+    "language": "Italian",
+    "speakers": [
+      "danilo_trombino"
+    ],
+    "tags": [
+      "Cloud"
+    ]
+  },
+  {
+    "id": "724334",
+    "title": "Lo Stato dell'Innovazione con LEGO® SERIOUS PLAY®",
+    "complexity": "Beginner",
+    "description": "Un workshop LEGO® SERIOUS PLAY® inizia con l'introduzione alla metodologia e un warm-up per familiarizzare con i mattoncini. I partecipanti costruiscono modelli individuali in risposta a domande del facilitatore e condividono le storie dietro i loro modelli, esplorando vari punti di vista. Successivamente, possono combinare i modelli in una costruzione di gruppo per rappresentare soluzioni collettive. Il workshop si conclude con una riflessione e discussione sulle intuizioni emerse e sulle azioni concrete da intraprendere, favorendo il pensiero creativo e la risoluzione collaborativa dei problemi.",
+    "language": "Italian",
+    "speakers": [
+      "andrea_romoli"
+    ],
+    "tags": [
+      "Tools",
+      "Workshop",
+      "Soft Skills"
+    ]
+  },
+  {
+    "id": "725891",
+    "description": "Ultimamente si sente parlare di Design system nel mondo front end.    Tuttavia l'approccio del designer rimane spesso oscuro e poco chiaro allo sviluppatore.    Immagina di poter rendere flessibili e adattabili gli elementi che compongono il tuo progetto, pronti a soddisfare le esigenze di clienti e del team design.    In questo talk ti guideremo nel processo di trasformazione del design system in componenti e elementi di stile.    Unisciti a noi per scoprire come rendere i tuoi sviluppi efficienti, fluidi e senza stress!",
+    "complexity": "Beginner",
+    "title": "Dagli atomi ai template: Come sviluppare un design system senza perderci la testa!",
+    "tags": [
+      "Web"
+    ],
+    "language": "Italian",
+    "speakers": [
+      "loredana_frontino"
+    ]
+  },
+  {
+    "id": "726927",
+    "title": "Business stories for developers",
+    "complexity": "Beginner",
+    "description": "A quiz, where developers can learn business context of technologies.",
+    "language": "English",
+    "speakers": [
+      "dmitrii_valentin"
+    ],
+    "tags": [
+      "Soft Skills"
+    ]
+  },
+  {
+    "id": "727415",
+    "title": "Hey Google! Help me build a fun trivia quiz with Gemini for my open-source Android app",
+    "description": "Join me as I take you through how I managed to transform my open-source TV show Android app into a fun interactive app with the use of Google's latest Gemini Generative AI models through Google AI. Through the use of Gemini, I was able to build an interactive TV show trivia quiz with questions and answers generated by the model. I will take you through the steps I took to integrate Gemini and discuss the pitfalls I encountered, highlighting my learnings from building this quiz using Gemini and generative AI. If you want to hear more about this journey, this session is for you.        Learning points:    - Learn what is Generative AI;    - What is Gemini;    - What are multimodal prompts, and how to build them in Android;    - How to consume a generative AI response in a format that you can use for your Android app;    - How integrating generative AI into an app can help enhance the experience for your app users; and,    - Potential pitfalls when trying to integrate generative AI into an Android app.        Key takeaways:    - How to set up Gemini with Google AI    - How to build and interaction inside an Android app to communicate with Gemini    - Setup multi-modal prompts that return useful results; and     - Fine-tuning a generative AI response into a format you can map to a data class.        This session is for you if you have or have not considered looking into Generative AI, what it is, and how to incorporate it into your Android app. Or if you have wondered how to improve certain parts of your Android app but are uncertain about how or what tools are available.",
+    "complexity": "Intermediate",
+    "language": "English",
+    "speakers": [
+      "ahmed_tikiwa"
+    ],
+    "tags": [
+      "AI",
+      "Android",
+      "Tools"
+    ]
+  },
+  {
+    "id": "727502",
+    "tags": [
+      "AI",
+      "Workshop"
+    ],
+    "speakers": [
+      "aldan_creo"
+    ],
+    "language": "English",
+    "complexity": "Beginner",
+    "description": "Have you ever been curious about how other people feel when they talk to you? Now you'll know!        In this session, we'll take our WhatsApp message history and use it to train our very own versions of Gemini (like ChatGPT) — it's going to be amazing! Your experiences, your opinions, your secrets... We'll use them all to build a chatbot that speaks and thinks like you. Your digital twin! 🙌        But be careful! Talking to yourself can be very addictive 😱 Please don't leave your friends and loved ones for your own AI! 😉        Join us! We'll keep things simple, no previous knowledge required!",
+    "title": "Train an AI to speak like you... using your WhatsApp chats!"
+  },
+  {
+    "id": "729536",
+    "tags": [
+      "Android"
+    ],
+    "speakers": [
+      "kenichi_kambara"
+    ],
+    "language": "English",
+    "complexity": "Beginner",
+    "description": "This talk covers how to improve Flutter Apps UX by enhancing various techniques tailored for global users. Delivering our Flutter apps globally means accommodating different languages, cultures, and user behaviors.        I visited over 40 countries to demonstrate the app and gather real user feedback. Sometimes, users operated the app as expected, and sometimes not. The insights gained from these experiences were reflected in the app's development.        We'll explore key challenges such as supporting multiple languages including RTL, adding user-friendly tutorials and instructions, providing better UI, and creating adaptive layouts for various devices. These topics will add new dimensions to your app's UX.        In this session, I'll dive deep into these areas and provide concrete code examples using Flutter/Dart. Specifically, I'll cover:        - Decision Making: Why and how I decided to add these new features based on user feedback.    - Implementation Steps: Practical steps to improve your Flutter app's UX.    - UX Principles: Key principles for expanding and enhancing UX.    - Code Examples: Concrete code examples addressing the mentioned challenges.        We're delivering our Flutter app globally. When I traveled to various countries around the world and let local people use my app, they were as pleased as I had hoped they would be, but I encountered several product challenges. I have addressed these issues, and people worldwide are using it more than ever. I would like to share the insights gained along with this real-life experience.",
+    "title": "Enhancing Flutter Apps UX for Global Users"
+  },
+  {
+    "id": "730447",
+    "title": "Gemini Functions Calls in Flutter",
+    "description": "Preparatevi a scoprire le Gemini Function Calls, lo strumento rivoluzionario di Google che vi permetterà di infondere l'intelligenza artificiale generativa nelle vostre app Flutter. Durante questo intervento, vi guiderò attraverso l'utilizzo del Google AI Studio SDK per creare app capaci di generare contenuti coinvolgenti, rispondere a domande e portare a termine compiti in modo intelligente.        Insieme, daremo vita a un'app per l'agenda del DevFest dotata di un assistente AI interattivo, alimentato dalle Gemini Functions. Vi svelerò i segreti della progettazione dell'interfaccia utente, della strutturazione dei dati e dell'utilizzo delle Gemini Functions per creare contenuti dinamici e interazioni coinvolgenti.",
+    "complexity": "Advanced",
+    "speakers": [
+      "carlo_lucera"
+    ],
+    "language": "Italian",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "id": "730943",
+    "tags": [
+      "Android",
+      "AI"
+    ],
+    "speakers": [
+      "thomas_kunneth"
+    ],
+    "language": "English",
+    "description": "Some premium devices offer a cool feature called Circle to search. It lets you identify objects, songs, and more just by pointing your phone's camera. Now, what might be needed to build something like that? What technologies, libraries and tools could be involved? Let's find out. In this talk, I will introduce you to key components and show how to build a simplified version of Circle to Search.",
+    "complexity": "Advanced",
+    "title": "Hey Google, how can I build something like Circle to search?"
+  },
+  {
+    "id": "741662",
+    "speakers": [
+      "yonatan_levin"
+    ],
+    "language": "English",
+    "tags": [
+      "AI"
+    ],
+    "title": "Generative AI Unveiled: From Fundamentals to Real-World Applications",
+    "complexity": "Beginner",
+    "description": "We will begin with a foundational introduction to Generative AI, setting the stage for a detailed exploration of the AI ecosystem. This will include an overview of key models, vector databases, graph databases, and AI as a Service platforms. The lecture will then shift focus to real-world examples, demonstrating what AI can achieve in practical settings. We will also discuss the limitations of AI, providing a realistic view of its capabilities. Concluding with insights from personal experience, I will share best practices for bringing AI-powered features into production, ensuring a smooth and effective implementation."
+  },
+  {
+    "id": "741683",
+    "complexity": "Beginner",
+    "description": "Cloud Foundation Fabric (https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) is a set of Terraform templates provided by GCP to facilitate the deployment and re-deployment of GCP resources quickly and in a standardized manner.        In this session, we will take a look at some of these templates, look into how they work, and deploy a couple of them in a demo environment.",
+    "title": "Understand how to use and reuse GCP's Cloud Foundation Fabric templates for quick and replicable deployments",
+    "tags": [
+      "Cloud"
+    ],
+    "language": "English",
+    "speakers": [
+      "ankur_roy"
+    ]
+  },
+  {
+    "id": "742017",
+    "tags": [
+      "Workshop"
+    ],
+    "speakers": [
+      "leonardo_cavagnis"
+    ],
+    "language": "Italian",
+    "complexity": "Beginner",
+    "description": "In this workshop, participants will learn how to create a complete IoT system using Arduino, moving through each step from sensor data collection to cloud integration and real-time dashboard control.\n\nInformation:\n - Registration is mandatory\n - Maximum capacity: 30 participants.\n - An Arduino board will be provided to each participant during the workshop.\n - The session will be conducted in Italian.\n - Beginner level: no prior hardware experience required, only basic programming knowledge.\n\nRequirements:\n - Laptop with internet connection.\n - Micro-USB cable.\n - Arduino IDE 1.x installed on the laptop.\n\nThis event is supported by Arduino.\nAt the end of the workshop: fun gadgets and a quiz with prizes! 🎁",
+    "title": "Arduino Hands-On: From Sensor to Cloud"
+  },
+  {
+    "id": "746448",
+    "speakers": [
+      "marco_arena",
+      "paolo_di_giglio"
+    ],
+    "language": "Italian",
+    "tags": [
+      "Workshop"
+    ],
+    "title": "Coding Gym",
+    "complexity": "Beginner",
+    "description": "Coding Gym is an international format of programming labs open to any language. It is designed for continuous improvement, guided by the principles of the Coding Gym manifesto:        \"\"We help others practice programming, software development, and communication skills by making coding laboratories open to any programming language where cooperation is valued over competition, doing and sharing are valued over teaching, and where competing solutions come with discussing and understanding tradeoffs.\"\"        How It Works:        Coding Gym is NOT a contest!        Participants (\"\"gymmers\"\") work in pairs on 3 self-contained problems using any programming language of their choice, all within a browser.        After each exercise, a Coding Gym \"\"trainer\"\" moderates a retrospective session where gymmers present their solutions, discussing pros, cons, and tradeoffs.        The trainer may also set new questions such as \"\"What happens if the input size increases by 100 times?\"\", or may introduce new solutions and concepts, potentially altering the problem on the spot to encourage discussion on changes and their impact. These variations can lead to discovering new ways of simplifying or complicating the problem.        Philosophy:        Coding Gym is not tied to any specific paradigm or programming language. It uses any tool, technique, or paradigm necessary to achieve its goals, promoting freedom in problem-solving.         For each problem, Coding Gym encourages gymmers to explore, study, and experiment with alternative solutions and variations. This approach helps participants break free from their mental patterns, evolving and learning new concepts and techniques. Each new solution brings compromises, advantages, and disadvantages that must be identified and understood as part of the practice.        A key aspect of Coding Gym is recognizing that technical skills alone are not sufficient. Professionals also need to master effective communication and collaboration. Coding Gym provides opportunities to practice these skills directly, enabling participants to collaborate with others and to explain their ideas and solutions in public. We eliminate stress, anxiety, and strict deadlines, replacing them with a fun and friendly atmosphere that fosters creativity and personal growth.        More information on https://coding-gym.org        ---    Coding Gym has been conceived, developed, and directed by Marco Arena since 2016.        Coding Gym at DevFest Milano 2024 is organized by Marco Arena and Paolo Di Giglio."
+  },
+  {
+    "id": "749708",
+    "language": "Italian",
+    "speakers": [
+      "samuele_bruschi"
+    ],
+    "tags": [],
+    "title": "Kotlin One For All",
+    "complexity": "Beginner",
+    "description": "Quando si parla di progetti, almeno di base full stack, in bocca arrivano sempre gli stack basato su JS/TS o base Python, e anche per lo sviluppo mobile continua a girare gli stack sempre con base JS/TS o con il pizzicorino di Flutter.    Bene... ma con una bella Boring Machine Kotlin sta cercando di scavare la sua idea di full stack.        In questo Talk si cercherà di sdoganare l'uso di Kotlin che non sia l'idea che attualmente è fissata dell'equazione Kotlin=Android, ma realmente si può usare per tante altre cose, alcune ben consolidate, altre sperimentali (ma ampiamente supportate dalla comunità) e altre delle follie totali."
+  },
+  {
+    "id": "752635",
+    "tags": [
+      "Cloud"
+    ],
+    "language": "Italian",
+    "speakers": [
+      "michel_murabito"
+    ],
+    "description": "Immagina di entrare in un ambiente di lavoro all'avanguardia, dove ogni strumento e processo è progettato per migliorare la tua creatività e produttività.        Esploreremo gli strumenti più innovativi e le tecniche avanzate che possono trasformare la tua Developer Experience (DevX). Dalla configurazione degli ambienti di sviluppo all'automazione delle pipeline CI/CD, vedremo le migliori pratiche che semplificano e migliorano il lavoro quotidiano degli sviluppatori.        Strumenti moderni e metodologie innovative possono ridurre il carico cognitivo, accelerare i cicli di sviluppo e migliorare la qualità del codice, creando un ambiente di lavoro più fluido ed efficiente. Scopriremo come adottare questi approcci può non solo rendere la tua giornata lavorativa più piacevole, ma anche portare a significativi miglioramenti in termini di efficienza e qualità. Approfondiremo i passaggi pratici che portano a una Developer Experience snella, efficace e soddisfacente.        Perché alla fine, non si tratta solo di dove ci sta portando la tecnologia, ma di come ci arriviamo. Con le giuste scelte e strumenti, il nostro percorso nello sviluppo può essere entusiasmante e rivoluzionario!",
+    "complexity": "Intermediate",
+    "title": "Migliorare la Developer Experience in un mondo Cloud Native"
+  },
+  {
+    "id": "752754",
+    "title": "Impostor syndrome in Tech",
+    "complexity": "Beginner",
+    "description": "IT impostor syndrome Do you ever get that awful feeling that you're not good enough to do your job? That you lack skills, intelligence and talent? That everyone around you knows what they're doing, and you just slip through by luck, chance, and appearing to be better than you really are? Do you live in fear that it's only a matter of time before someone discovers you're just a fraud?         You are not alone.         According to research, Impostor Syndrome affects almost 90% of people working in IT. In this presentation, I will unravel this phenomenon, explore why it is so dominant in our industry, how one gets into a vicious circle and where it can lead to. I will discuss how the awareness of simple mechanisms will help you see your competencies and what tricks to use to defy the demons of insecurity.         *May contain traces of rubber ducks.",
+    "speakers": [
+      "pawel_zajaczkowski"
+    ],
+    "language": "English",
+    "tags": [
+      "Tools",
+      "Soft Skills"
+    ]
+  },
+  {
+    "id": "752791",
+    "tags": [
+      "Android"
+    ],
+    "language": "Italian",
+    "speakers": [
+      "rob_orgiu"
+    ],
+    "complexity": "Beginner",
+    "description": "In this session, we'll explore how to make an app adaptive, starting from concrete situations and evolving it with examples. Thanks to the new Material 3 Adaptive library and other new and shiny APIs, your app will truly work everywhere (on Android) with very little time!",
+    "title": "Adaptive by examples"
+  },
+  {
+    "id": "754514",
+    "title": "Da Documenti Statici a Risposte Immediate: La Rivoluzione AI nel Settore Industriale",
+    "description": "Gli assistenti virtuali stanno diventando sempre più comuni nell'esperienza utente, dal servizio clienti alla gestione delle informazioni personali. Tuttavia ci sono contesti meno propensi all'inclusione di tali strumenti software, specialmente quelli industriali.        L'accesso immediato a soluzioni tecniche può essere cruciale quando si verificano problemi con le macchine di produzione in una fabbrica, e affidarsi esclusivamente alla formazione degli utenti sul posto o al supporto remoto potrebbe non essere pratico o conveniente.        Mostreremo nel dettaglio come abbiamo sviluppato un chatbot intelligente, integrando OpenAI, Qdrant e Haystack, per rivoluzionare il supporto agli utenti e convertire documenti statici in risorse interattive. Il chatbot risponde a domande sui contenuti documentali, visualizzando la pagina e il contesto preciso delle informazioni, offrendo un'esperienza utente fluida e coinvolgente.        Punti chiave:        - Caso d'uso reale: Abbiamo trasformato da zero la documentazione di un cliente in una risorsa interattiva e dinamica.    - Retrieval: Scopri come abbiamo integrato la modalità di recupero di OpenAI per estrarre rapidamente informazioni pertinenti.    - Gestione avanzata dei dati: Scopri come Qdrant e Haystack gestiscono la persistenza degli embedding e i calcoli di similarità per risposte rapide.        Sarà una sessione pratica durante la quale entreremo nel codice e ti mostreremo come replicare la nostra soluzione.",
+    "complexity": "Intermediate",
+    "speakers": [
+      "christian_de_simone",
+      "andrea_caglio"
+    ],
+    "language": "Italian",
+    "tags": [
+      "AI",
+      "Web"
+    ]
+  },
+  {
+    "id": "754679",
+    "speakers": [
+      "alvin_bryan"
+    ],
+    "language": "English",
+    "tags": [],
+    "title": "How computers scribble",
+    "description": "Ever wondered how your scribbles on Snapchat turns into a smooth line, or how the pen tool works in Figma or Procreate? In this talk we'll dive into the invisible art of line-drawing algorithms, and more.        We'll start from the historical pixel-based methods to the tools that we use today, wrapping up with real-world examples.        We'll answer questions like:        How do apps turn your scribbles into smooth lines?    How do Bézier curves work?    What's in a font?    How do computers do colours?        The techniques described are evergreen, timeless and platform-agnostic.",
+    "complexity": "Intermediate"
+  },
+  {
+    "id": "755304",
+    "tags": [],
+    "language": "Italian",
+    "speakers": [
+      "ludovico_besana"
+    ],
+    "complexity": "Intermediate",
+    "description": "In this talk, I’ll share my vision for the evolving role of Test Engineers, moving beyond the traditional focus on bug detection to becoming essential partners in the development process. We’ll examine how automation, AI, and DevOps are reshaping the testing landscape, demanding new skills and approaches. This session will offer insights into modernizing the journey to becoming a Test Engineer, ensuring it aligns with the current needs of software development.",
+    "title": "Redefining the Role of the Test Engineer: The Path to a New Era"
+  },
+  {
+    "id": "755411",
+    "language": "Italian",
+    "speakers": [
+      "gregorio_palama"
+    ],
+    "tags": [
+      "Cloud"
+    ],
+    "title": "SLSA on GCP: let's mitigate Supply Chain threats",
+    "description": "The recent backdoor inserted in XZ makes us reflect on the ever-increasing importance of inserting mitigation mechanisms on threats to which the entire Supply Chain is exposed in the software development cycle. After introducing a classification of threats through the SLSA security framework, we will see how GCP allows us to address and mitigate the threats.",
+    "complexity": "Intermediate"
+  },
+  {
+    "id": "755599",
+    "title": "Firebase Fundamentals: Structuring Your NoSQL Data for Scalability and Reporting",
+    "complexity": "Beginner",
+    "description": "Firebase offers a powerful and flexible NoSQL database solution, enabling real-time data synchronization and effortless scalability for your applications. However, designing your data structure for optimal performance and reporting can be challenging. In this session, we'll delve into the fundamentals of Firebase's NoSQL database and explore key principles for effectively structuring your data to achieve scalability while enabling SQL-based reporting capabilities.        We'll cover topics like:        Data Modeling Best Practices: Understand how to model your data in a way that promotes efficient queries and avoids common pitfalls.    Denormalization for Performance: Learn how to strategically denormalize data to optimize read performance and minimize data retrieval costs.    Indexing Strategies: Discover the importance of indexing and how to implement indexes effectively to speed up queries.    SQL Integration for Reporting: Explore strategies for integrating SQL-based reporting tools with your Firebase data, including tips for data transformation and export.    Real-World Examples: Analyze practical examples that illustrate how to apply these principles to real-world Firebase projects.    By the end of this session, you'll have the essential knowledge and strategies to design Firebase data structures that can scale seamlessly with your growing user base and application complexity, while also empowering you to leverage the power of SQL for comprehensive reporting and analytics.",
+    "speakers": [
+      "jason_berryman"
+    ],
+    "language": "English",
+    "tags": [
+      "Cloud"
+    ]
+  },
+  {
+    "id": "756063",
+    "description": "Tired of generic chatbots? In this session, we’ll create a truly unique AI agent. We’ll go through the process of running an LLM on your own machines, building a chat agent from the ground up, and imbuing it with the personality of your favorite fictional character. In addition, thanks to Retrieval Augmented Generation (RAG) and voice cloning, our character will sound as awesome as it acts. We’ll use only open source tools and a sprinklr of Docker.",
+    "complexity": "Intermediate",
+    "title": "Bringing Fictional Characters to Life with Open Source LLMs",
+    "tags": [
+      "AI"
+    ],
+    "language": "Italian",
+    "speakers": [
+      "alfredo_morresi"
+    ]
+  },
+  {
+    "id": "999998",
+    "speakers": [],
+    "language": "Italian",
+    "tags": [
+      "Tools"
+    ],
+    "title": "Remote working round table",
+    "description": "Join us for an open discussion around the topic of remote working: pros, cons, tools, stories and more!",
+    "complexity": "Beginner"
+  },
+  {
+    "id": "999999",
+    "tags": [
+      "AI"
+    ],
+    "speakers": [
+      "carlo_lucera"
+    ],
+    "language": "English",
+    "description": "TBD",
+    "complexity": "Beginner",
+    "title": "Responsible AI - powered by Google"
+  }
+]

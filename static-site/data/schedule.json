@@ -1,0 +1,284 @@
+[
+  {
+    "id": "2024-11-23",
+    "dateReadable": "Nov 23",
+    "tracks": [
+      {
+        "title": "Bit Room"
+      },
+      {
+        "title": "Nibble Room"
+      },
+      {
+        "title": "Byte Room"
+      },
+      {
+        "title": "Word Room"
+      },
+      {
+        "title": "DWord Room"
+      }
+    ],
+    "date": "2024-11-23",
+    "timeslots": [
+      {
+        "endTime": "10:00",
+        "sessions": [
+          {
+            "items": [
+              "100000"
+            ]
+          }
+        ],
+        "startTime": "09:00"
+      },
+      {
+        "sessions": [
+          {
+            "items": [
+              "100001"
+            ]
+          }
+        ],
+        "startTime": "10:00",
+        "endTime": "10:15"
+      },
+      {
+        "sessions": [
+          {
+            "items": [
+              "724316"
+            ]
+          },
+          {
+            "items": [
+              "999999"
+            ]
+          },
+          {
+            "items": [
+              "754679"
+            ]
+          },
+          {
+            "items": [
+              "727502"
+            ],
+            "extend": 3
+          },
+          {
+            "items": [
+              "742017"
+            ],
+            "extend": 3
+          }
+        ],
+        "startTime": "10:15",
+        "endTime": "11:00"
+      },
+      {
+        "endTime": "11:40",
+        "startTime": "11:00",
+        "sessions": [
+          {
+            "items": [
+              "730943"
+            ]
+          },
+          {
+            "items": [
+              "755599"
+            ]
+          },
+          {
+            "items": [
+              "754514"
+            ]
+          }
+        ]
+      },
+      {
+        "startTime": "11:40",
+        "sessions": [
+          {
+            "items": [
+              "100002"
+            ]
+          }
+        ],
+        "endTime": "11:55"
+      },
+      {
+        "endTime": "12:40",
+        "sessions": [
+          {
+            "items": [
+              "725891"
+            ]
+          },
+          {
+            "items": [
+              "752791"
+            ]
+          },
+          {
+            "items": [
+              "752635"
+            ]
+          }
+        ],
+        "startTime": "11:55"
+      },
+      {
+        "endTime": "13:20",
+        "startTime": "12:40",
+        "sessions": [
+          {
+            "items": [
+              "729536"
+            ]
+          },
+          {
+            "items": [
+              "755304"
+            ]
+          },
+          {
+            "items": [
+              "755411"
+            ]
+          }
+        ]
+      },
+      {
+        "startTime": "13:20",
+        "sessions": [
+          {
+            "items": [
+              "100003"
+            ]
+          }
+        ],
+        "endTime": "14:20"
+      },
+      {
+        "startTime": "14:20",
+        "sessions": [
+          {
+            "items": [
+              "741683"
+            ]
+          },
+          {
+            "items": [
+              "752754"
+            ]
+          },
+          {
+            "items": [
+              "730447"
+            ]
+          },
+          {
+            "extend": 3,
+            "items": [
+              "746448"
+            ]
+          },
+          {
+            "extend": 3,
+            "items": [
+              "724334"
+            ]
+          }
+        ],
+        "endTime": "15:00"
+      },
+      {
+        "sessions": [
+          {
+            "items": [
+              "721902"
+            ]
+          },
+          {
+            "items": [
+              "749708"
+            ]
+          },
+          {
+            "items": [
+              "716509"
+            ]
+          }
+        ],
+        "startTime": "15:05",
+        "endTime": "15:45"
+      },
+      {
+        "sessions": [
+          {
+            "items": [
+              "100004"
+            ]
+          }
+        ],
+        "startTime": "15:50",
+        "endTime": "16:05"
+      },
+      {
+        "endTime": "16:45",
+        "sessions": [
+          {
+            "items": [
+              "999998"
+            ]
+          },
+          {
+            "items": [
+              "741662"
+            ]
+          },
+          {
+            "items": [
+              "726927"
+            ]
+          }
+        ],
+        "startTime": "16:05"
+      },
+      {
+        "endTime": "17:30",
+        "startTime": "16:50",
+        "sessions": [
+          {
+            "items": [
+              "756063"
+            ]
+          },
+          {
+            "items": [
+              "718356"
+            ]
+          },
+          {
+            "items": [
+              "727415"
+            ]
+          }
+        ]
+      },
+      {
+        "sessions": [
+          {
+            "items": [
+              "100005"
+            ]
+          }
+        ],
+        "startTime": "17:30",
+        "endTime": "17:50"
+      }
+    ]
+  }
+]

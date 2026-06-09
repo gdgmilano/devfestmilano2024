@@ -1,0 +1,658 @@
+[
+  {
+    "id": "ahmed_tikiwa",
+    "title": "Google Developer Expert (GDE) Android",
+    "order": 1,
+    "name": "Ahmed Tikiwa",
+    "featured": false,
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/ahmed-tikiwa/",
+        "icon": "linkedin",
+        "name": "LinkedIn"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/@ahmed_tikiwa"
+      }
+    ],
+    "bio": "Ahmed Tikiwa is a Google Developer Expert for Android and a seasoned full-stack developer with over 10 years of experience and possesses a strong passion for developing world-class applications that can help make a difference. He has experience in frontend and backend systems, where he has built enterprise solutions for major telecommunication companies. He is currently a Software Engineer based in Utrecht, The Netherlands and an official contributor to Google Developers Dev Library.",
+    "badges": [
+      {
+        "link": "https://developers.google.com/profile/u/ahmedt",
+        "name": "gde",
+        "description": "Android Google Developer Expert"
+      }
+    ],
+    "photoUrl": "https://sessionize.com/image/0960-400o400o1-HRBPjPpDAECwDhScYPj4Nm.png"
+  },
+  {
+    "id": "aldan_creo",
+    "featured": false,
+    "title": "Technology Research Specialist @ Accenture Labs",
+    "order": 2,
+    "name": "Aldan Creo",
+    "photoUrl": "https://sessionize.com/image/a8f5-400o400o1-KZ2Qk2kdE34vjwtHtCDzEk.jpg",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://linkedin.com/in/acmcmc"
+      }
+    ],
+    "badges": [],
+    "bio": "Aldan is a Fulbright Student, sponsored by the U.S. Department of State. He studied Computer Science in Spain, France, and Switzerland, graduating as valedictorian. He has completed four internships and been a Google Summer of Code contributor for Django. He received a public grant to undertake research on Natural Language Processing, and has been recognized for leadership and academic excellence through several awards. He is also the founder of 3 associations and contributes to open source. Currently, he is employed as a Technology Research Specialist working on Knowledge Graphs and Natural Language Processing in Accenture Labs.\t"
+  },
+  {
+    "id": "alfredo_morresi",
+    "photoUrl": "https://sessionize.com/image/5335-400o400o1-VTGuvYKRpnENbxKRVA9ygc.png",
+    "socials": [
+      {
+        "link": "https://linkedin.com/in/alfredomorresi",
+        "icon": "linkedin",
+        "name": "LinkedIn"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/rainbowbreeze"
+      },
+      {
+        "link": "https://rainbowbreeze.it",
+        "name": "Website",
+        "icon": "website"
+      }
+    ],
+    "badges": [],
+    "bio": "I help people to get things done, at the intersection of technology, community, leadership and fun.    Community builder and developer by passion, Developer Relation @ Google by profession        🇮🇹, I love being a dad, free-software, running on the beach, snowboarding. I relentlessly train myself in preparing (and eating) Tiramisù.        I’m definitely yellow.",
+    "featured": true,
+    "title": "Developer Relations @ Google",
+    "order": 3,
+    "name": "Alfredo Morresi"
+  },
+  {
+    "id": "alvin_bryan",
+    "featured": false,
+    "title": "Developer Advocate",
+    "name": "Alvin Bryan",
+    "order": 4,
+    "photoUrl": "https://sessionize.com/image/9d33-400o400o1-YhHHzbcpAMbXGo5wExweTT.jpeg",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/alvin-bryan/"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/hola_alvin"
+      },
+      {
+        "link": "https://instagram.com/hola_alvin",
+        "icon": "instagram",
+        "name": "Instagram"
+      },
+      {
+        "link": "https://alvin.codes/",
+        "name": "Website",
+        "icon": "website"
+      }
+    ],
+    "badges": [],
+    "bio": "I’m a developer advocate at Unleash, previously at Contentful. Before that, he used to be a lead engineer for Dow Jones in the Wall Street Journal and has had various front-end roles. He’s very UX driven and happiest when collaborating with designers and pushing boundaries as a team. He’s learning a lot about DevRel these days and loving it."
+  },
+  {
+    "id": "andrea_caglio",
+    "featured": false,
+    "title": "Intré srl, Software & AI Engineer",
+    "order": 5,
+    "name": "Andrea Caglio",
+    "photoUrl": "https://sessionize.com/image/bac3-400o400o1-RCxWNfA4266LW8YP6pvaX.jpg",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/andrea-caglio/"
+      },
+      {
+        "link": "https://www.instagram.com/andre_caglio?igsh=djgzemc4YzN5MGw%3D&utm_source=qr",
+        "name": "Instagram",
+        "icon": "instagram"
+      }
+    ],
+    "badges": [],
+    "bio": "\"I am a computer science professional with a passion for innovation and the use of new technologies. Since September 2017, I have been working as a software engineer at Intré, where I have developed skills in Agile methodologies and teamwork. I have come to appreciate the importance of code quality and clean code in my work.    I have obtained a three-year bachelor's degree in computer science in 2019 and a master's degree in computer science in 2022, both from the University of Milan-Bicocca. I have a strong interest in Artificial Intelligence and Machine Learning, and I am always looking for ways to improve my skills in these areas.\"\t\t"
+  },
+  {
+    "id": "andrea_romoli",
+    "featured": false,
+    "title": "In Sprint Srl, Co-Founder, Innovation Facilitator",
+    "name": "AndRom",
+    "order": 6,
+    "photoUrl": "https://sessionize.com/image/0609-400o400o1-RMquLRktbV4Xgzxxtb5c3u.jpg",
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/andrearomoli/",
+        "icon": "linkedin",
+        "name": "LinkedIn"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/androm/"
+      },
+      {
+        "link": "https://instagram.com/androm63",
+        "name": "Instagram",
+        "icon": "instagram"
+      }
+    ],
+    "bio": "I am Innovation Facilitator and an Event Producer : in the last years I have acquired expertise organizing workshop with new emerging and innovative methodologies: Lean Startup methodology since 2014, LEGO® Serious Play® since 2017 and Google Design Sprint 2018.",
+    "badges": []
+  },
+  {
+    "id": "ankur_roy",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://linkedin.com/in/ankurr0y"
+      }
+    ],
+    "badges": [
+      {
+        "description": "GCP Google Developer Expert",
+        "name": "gde",
+        "link": "https://developers.google.com/profile/u/117466783276776056921"
+      }
+    ],
+    "bio": "I am a Solutions Architect at Online Partner AB. I have worked on several projects involving Google Cloud services and Google Workspace along with multiple other technology stacks and platforms.  Some important things to know about me:  I have all 11 GCP certifications. I have recently published a book on the use of Python in DevOps and am currently working on a book regarding passing the Google Cloud Professional Data Engineer certification exam. I am passionate about working out, writing, and content creation. I love public speaking and have done many speaking appearances including one recently for a webinar at Google's Oslo headquarters.",
+    "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWBkoClrOHjo5-sDQGTZc9793xwrkGn9Vf3gygWCqJlfBPbq-MT=s300",
+    "title": "Architect at Online Partner AB",
+    "name": "Ankur Roy",
+    "order": 26,
+    "featured": false
+  },
+  {
+    "id": "carlo_lucera",
+    "photoUrl": "https://sessionize.com/image/24d5-400o400o1-UPUyDxqEnpBHh1RHZxybB8.jpg",
+    "badges": [
+      {
+        "link": "https://developers.google.com/profile/u/100368137217972977538",
+        "description": "Flutter Google Developer Expert",
+        "name": "gde"
+      }
+    ],
+    "bio": "Known as HatDroid, is a Technology enthusiast, former Android, and now Flutter developer, always in search of new technologies and strategies to improve.    Flutter Google Developer Expert and Full-time Flutter Developer @Pvotal technologies and admin for Flutter Italia Developers.    Always ready to share his experiences and working hard to help the Developer communities grow.",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/clucera/"
+      },
+      {
+        "link": "https://twitter.com/hat_droid",
+        "icon": "twitter",
+        "name": "Twitter"
+      }
+    ],
+    "featured": true,
+    "name": "Carlo Lucera",
+    "order": 26,
+    "title": "HatDroid! - Flutter dev"
+  },
+  {
+    "id": "christian_de_simone",
+    "photoUrl": "https://sessionize.com/image/3ee0-400o400o1-3g7yhCtxYbk7c6LqRawpUL.jpeg",
+    "badges": [],
+    "bio": "\"I am a passionate individual who enjoys constantly learning new things. I have good experience in developing cloud native software with Kubernetes, and knowledge of major cloud providers such as AWS, Azure, and Scaleway. I firmly believe in continuous improvement and constantly strive to develop my skills to provide innovative and successful solutions to my clients.        💻 Software development    🔧 Debugging and code maintenance    🚀 Developing cloud native solutions    💬 Talkative: I enjoy making friends with colleagues    🌩️ Cloud infrastructure management: using AWS, Azure, and Scaleway.\"\t\t",
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/desimonechristian/",
+        "name": "LinkedIn",
+        "icon": "linkedin"
+      }
+    ],
+    "featured": false,
+    "order": 26,
+    "name": "Christian De Simone",
+    "title": "Intré Srl, Software engineer"
+  },
+  {
+    "id": "danilo_trombino",
+    "featured": false,
+    "name": "Danilo Trombino",
+    "order": 26,
+    "title": "Cloud & Data Architect @ Datwave (BIP)",
+    "photoUrl": "https://media.licdn.com/dms/image/v2/D4D03AQENEj8KJ0TQ-Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718369287924?e=1735171200&v=beta&t=Hys-aWvijtUomVCHR0LXhW3j5ism-vMEoGYclu11gqU",
+    "bio": "Data architect con esperienza nello sviluppo di applicazioni cloud per smart cities e pubbliche amministrazioni, e nell’ottimizzazione di soluzioni data-oriented in contesti di innovazione per la salute pubblica. Ha contribuito alla realizzazione di una soluzione private cloud e dei servizi as-a-service associati ed ha esperienza nel disegno di soluzioni GenAI e nell’ottimizzazione della loro scalabilità.",
+    "badges": [],
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://linkedin.com/in/danilotrombino/en"
+      }
+    ]
+  },
+  {
+    "id": "dmitrii_valentin",
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/dvaletin/",
+        "name": "LinkedIn",
+        "icon": "linkedin"
+      }
+    ],
+    "badges": [],
+    "bio": "Over 24 years of experience in IT.",
+    "photoUrl": "https://sessionize.com/image/93d0-400o400o1-GPVPxU1thTVcS9L9wMF96k.jpg",
+    "title": "Leading 6 teams in largest classified on the world",
+    "name": "Dmitrii Valentin",
+    "order": 26,
+    "featured": false
+  },
+  {
+    "id": "gregorio_palama",
+    "featured": true,
+    "order": 26,
+    "name": "Gregorio\tPalamà",
+    "title": "Google Cloud Innovator Champion | Community Manager @ GDG Pescara",
+    "photoUrl": "https://sessionize.com/image/a17b-400o400o1-3Bzfto4MgCJbi7uwAYGkRf.png",
+    "badges": [
+      {
+        "link": "https://gdg.community.dev/gdg-pescara/",
+        "description": "Community Manager @ GDG Pescara",
+        "name": "gdg"
+      }
+    ],
+    "bio": "I have been working in the IT industry for over 15 years. I currently deal with DevOps issues, Cloud Engineering, Cloud Native and everything that revolves around containerization and serverless at Lutech. I am Google Cloud Innovator Champion on the topic of modern architecture. I manage GDG Pescara together with other developers, I love sharing my knowledge and trying to do it in a fun way.",
+    "socials": [
+      {
+        "link": "https://it.linkedin.com/in/gregorio-palam%C3%A0",
+        "name": "LinkedIn",
+        "icon": "linkedin"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/gregoriopalama"
+      }
+    ]
+  },
+  {
+    "id": "jason_berryman",
+    "badges": [
+      {
+        "description": "Firebase and GCP Google Developer Expert",
+        "name": "gde",
+        "link": "https://developers.google.com/profile/u/jasonberryman"
+      }
+    ],
+    "bio": "Jason is a freelance software architect, a Google Cloud Certified Professional Cloud Architect and Cloud Firestore launch partner. He specialises in systems architecture and design using Google Cloud technologies, particularly Cloud Firestore and Cloud Functions, working primarily in a Node.js environment. He also has experience with BigQuery, PubSub and Kubernetes, in addition to media technologies, such as SIP and WebRTC. In his spare time, Jason regularly speaks at events on Firebase suite topics for GDG Cloud London and GDG Milton Keynes. He also volunteers with a medical charity, where he is currently working on developing new apps to track and deploy assets at large events, using Cloud Firestore and Polymer.",
+    "socials": [
+      {
+        "name": "Linkedin",
+        "icon": "linkedin",
+        "link": "https://linkedin.com/in/JasonBerryman"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/JasonBerrymanUK"
+      }
+    ],
+    "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWUye3ScRZ-CBaihEmpzMicbz4QRskp4qh-LD0uGCMyofLrSe3B7Q=s300",
+    "order": 26,
+    "name": "Jason Berryman",
+    "title": "Architect at 418.dev",
+    "featured": false
+  },
+  {
+    "id": "kenichi_kambara",
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/korodroid/",
+        "name": "LinkedIn",
+        "icon": "linkedin"
+      },
+      {
+        "link": "https://twitter.com/korodroid",
+        "name": "Twitter",
+        "icon": "twitter"
+      }
+    ],
+    "bio": "I specialize in mobile applications such as Android, iOS, etc. I have over 20 years of experience as a mobile application developer. Also, I have development experience with Smartphones, Tablets, and Wearable devices. In addition, I've been doing a lot of writing and speeches, including 16 international events such as droidcon/DevFest/Devoxx.",
+    "badges": [],
+    "photoUrl": "https://sessionize.com/image/c5ad-400o400o1-89-83ff-41c0-b3db-d3cdc13d9ecc.6b478931-9af2-45d3-9d1b-90456eda2051.jpg",
+    "title": "NTT TechnoCross Corporation Principal Evangelist (Tech)",
+    "name": "Kenichi Kambara",
+    "order": 26,
+    "featured": true
+  },
+  {
+    "id": "leonardo_cavagnis",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/leonardocavagnis"
+      },
+      {
+        "link": "https://twitter.com/LeoCavagnis",
+        "name": "Twitter",
+        "icon": "twitter"
+      }
+    ],
+    "badges": [],
+    "bio": "Since 2023, I have been working as a firmware engineer at Arduino, contributing to the development of innovative hardware and software solutions.    I hold a Master's Degree in Computer Engineering from Politecnico di Milano, specializing in embedded systems. Before joining Arduino, I gained experience in various fields, including industrial, automotive, and green mobility.    Passionate about technical writing and traveling, I am always seeking new experiences and knowledge.",
+    "photoUrl": "https://sessionize.com/image/39d9-400o400o1-UxtwKsVoC2wTDTZKPLW8ZZ.jpg",
+    "title": "Firmware Engineer @ Arduino",
+    "name": "Leonardo Cavagnis",
+    "order": 26,
+    "featured": false
+  },
+  {
+    "id": "loredana_frontino",
+    "photoUrl": "https://sessionize.com/image/8d4e-400o400o1-9QsyXHDVtyf6JfxP1mAU7B.jpg",
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/loredana-frontino-0a2367132/",
+        "icon": "linkedin",
+        "name": "LinkedIn"
+      }
+    ],
+    "bio": "Passionate about technology and design. The background in both fields led her to become a ux/ui designer and Frontend developer and become the point of contact of those worlds.    She likes organizing meetups with GDG Turin and share her knowledge.",
+    "badges": [
+      {
+        "name": "wtm",
+        "description": "WTM Ambassador"
+      },
+      {
+        "name": "gdg",
+        "description": "GDG Turin organizer",
+        "link": "https://gdg.community.dev/gdg-torino/"
+      }
+    ],
+    "featured": false,
+    "title": "UX/UI Designer & Frontend Developer - WTM Ambassador",
+    "name": "Loredana Frontino",
+    "order": 26
+  },
+  {
+    "id": "ludovico_besana",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/ludovicobesana/"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/ludovicobesana"
+      },
+      {
+        "link": "https://www.instagram.com/ludovicobesana/",
+        "name": "Instagram",
+        "icon": "instagram"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "https://www.ludovicobesana.com/blog"
+      }
+    ],
+    "bio": "Ludovico, born as a Full Stack Developer, discovered his true passion for quality later in his career. With a background in Full Stack Development, he possessed a strong technical foundation and a deep understanding of software systems.    As an Automation and Open Source enthusiast, Ludovico recognized the power of efficient and reliable testing methodologies. He understood the importance of ensuring that software products met the highest standards of performance, functionality, and user experience. He works as a Senior Test Engineer.",
+    "badges": [],
+    "photoUrl": "https://sessionize.com/image/7868-400o400o1-9GKEbr3ZW2cJLVAJkJWLCV.png",
+    "title": "Senior Test Engineer",
+    "order": 26,
+    "name": "Ludovico Besana",
+    "featured": false
+  },
+  {
+    "id": "marco_arena",
+    "photoUrl": "https://sessionize.com/image/1e38-400o400o1-GrPLYAdnwMG1X7ah5tXR3v.jpg",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://it.linkedin.com/in/marcoarena"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/ilpropheta"
+      },
+      {
+        "name": "Website",
+        "icon": "website",
+        "link": "http://www.marcoarena.com"
+      }
+    ],
+    "badges": [],
+    "bio": "Marco Arena is a software engineer and community lead with extensive experience in C++ development.         He is currently pioneering Artificial Intelligence adoption at Tetra Pak as a technical leader. Previously, he worked as a software engineer for the Ferrari F1 racing team, focusing on mission-critical software and driving the adoption of the latest C++ standards.        Beyond coding, Marco is a seasoned community manager, blogger, and speaker with over 11 years of experience. He founded the Italian C++ Community (2013), Coding Gym (2016), and ML Modena (2020), and co-founded the ISO C++ Italian body (2020). His initiatives have attracted thousands of participants.        Recognized for his contributions, Marco has received the Microsoft MVP award nine times since 2016, highlighting his significant impact on the community.",
+    "featured": false,
+    "title": "C++ Software Engineer & Community Lead",
+    "order": 26,
+    "name": "Marco Arena"
+  },
+  {
+    "id": "matteo_guidotto",
+    "title": "Senior Product Manage @ Elty",
+    "order": 26,
+    "name": "Matteo Guidotto",
+    "featured": false,
+    "socials": [],
+    "badges": [],
+    "bio": "Born in the humid Venetian lagoon, for 18 years I have been working in the digital world dealing more with people than with technology. Product Management, User Experience but also community management.",
+    "photoUrl": "https://sessionize.com/image/ace0-400o400o1-rhnFigf1mLGec59MBUxVYN.jpg"
+  },
+  {
+    "id": "michel_murabito",
+    "photoUrl": "https://sessionize.com/image/a54b-400o400o1-MgKh8xCfz5ATN5KD8Uv5SQ.jpg",
+    "badges": [],
+    "bio": "Sono Michel Murabito, Developer Advocate presso Mia-Platform e CNCF Ambassador con base a Milano. Il mio percorso nel mondo dello sviluppo software è iniziato a 12 anni, guidato da una profonda curiosità per la tecnologia. A 18 anni ho iniziato la mia carriera professionale come Software Developer, lavorando su numerosi progetti per aziende e startup. Dal 2015 mi dedico alle Developer Relations, iniziando in una multinazionale e ora presso Mia-Platform. La mia missione è supportare e ispirare gli sviluppatori condividendo conoscenze ed esperienze. Ho parlato in numerosi eventi in Italia e all'estero, trattando argomenti come Platform Engineering, Developer Experience, Cloud Native e Sostenibilità.    Sono anche attivo nella comunità tech attraverso il mio canale YouTube e una community di oltre 800 membri. Il mio motto, \"\"Never Hesitate\"\", riflette il mio approccio alla vita e al lavoro, con l'obiettivo di avere un impatto positivo nel mondo digitale.",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/michel-murabito-b5568845"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/michelmurabito"
+      },
+      {
+        "link": "https://www.instagram.com/michel_murabito/",
+        "icon": "instagram",
+        "name": "Instagram"
+      },
+      {
+        "link": "https://michelmurabito.com",
+        "name": "Website",
+        "icon": "website"
+      }
+    ],
+    "featured": true,
+    "name": "Michel Murabito",
+    "order": 26,
+    "title": "CNCF Ambassador & Developer Advocate @Mia-Platform"
+  },
+  {
+    "id": "paolo_di_giglio",
+    "title": "Software Developer | Metaprogramming Enthusiast",
+    "order": 26,
+    "name": "Paolo Di Giglio",
+    "featured": false,
+    "socials": [],
+    "badges": [],
+    "bio": "\"Born as a Physicist; grown up as a Software Developer.        I do extreme sports like paragliding and C++ metaprogramming. Yes, I know, \"\"danger\"\" is my middle name.        Became a Coding Gym trainer to challenge myself with coding riddles and share clever ideas.        A well-thought elegant algorithm or data structure will always get my jaw dropped.\"\t\t\t\t\t",
+    "photoUrl": "https://sessionize.com/image/47eb-400o400o1-wgZd6KBDSN8UpF9H4QbrKG.jpg"
+  },
+  {
+    "id": "pawel_zajaczkowski",
+    "featured": false,
+    "order": 26,
+    "name": "Pawel Zajączkowski\t",
+    "title": "Development Manager at Xebia Poland",
+    "photoUrl": "https://sessionize.com/image/932c-400o400o1-TJPAFV8EdL6rHuotZY9y5o.png",
+    "badges": [],
+    "bio": "Paweł has been working in Wrocław IT since 2009. He was digging through the code in a Finnish telecom, German logistics, a Swiss bank, a car factory, a travel startup, British compliance, and villa rental. Currently, he has gone to the dark side and takes care of a flock of programmers and team leaders, a mentoring program, a guild and is sticking his nose wherever else he can.         Personally, he likes to read, play board games, analog and computer RPGs. He practices powerlifting and collects vintage Lego Technic. Writes about software, peopleware and dragons on HowToTrainYourJava.com.",
+    "socials": [
+      {
+        "link": "https://www.linkedin.com/in/pawe%C5%82zaj%C4%85czkowski/",
+        "icon": "linkedin",
+        "name": "LinkedIn"
+      },
+      {
+        "link": "https://twitter.com/gvaireth",
+        "name": "Twitter",
+        "icon": "twitter"
+      },
+      {
+        "link": "https://www.instagram.com/gvaireth/",
+        "icon": "instagram",
+        "name": "Instagram"
+      }
+    ]
+  },
+  {
+    "id": "rob_orgiu",
+    "photoUrl": "https://sessionize.com/image/e3a5-400o400o1-Xng3TgUHQGPahwUV2Am3SX.jpg",
+    "socials": [],
+    "badges": [],
+    "bio": "Roberto è uno sviluppatore Android che viaggia molto. Gli piace scattare fotografie e visitare posti nuovi.",
+    "featured": true,
+    "title": "Developer Relations Engineer @ Google",
+    "order": 26,
+    "name": "Rob Orgiu 1"
+  },
+  {
+    "id": "samuele_bruschi",
+    "featured": false,
+    "title": "Android Mobile Dev",
+    "name": "Samuele Bruschi",
+    "order": 26,
+    "photoUrl": "https://sessionize.com/image/b40b-400o400o1-wqRvmRcjTsBKBFtm9EvZF3.png",
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/samuele794/"
+      }
+    ],
+    "badges": [],
+    "bio": "\"Kotlin Dev Mobile Android.    Fosse per me, svilupperei tutto in Kotlin... non che ogni tanto non ci provi a farlo.    Per il resto sono Perito semplice.\"\t\t"
+  },
+  {
+    "id": "simone_colucci",
+    "photoUrl": "https://sessionize.com/image/6e29-400o400o1-QLYfizckRG5hQxAzUhttzo.jpg",
+    "bio": "In love with technology and innovation since university, he has transitioned from software engineering to product management a few years ago. Co-founded xtream, a boutique of digital products and AI, where he helped scale-ups and corporates build better solutions for their businesses.",
+    "badges": [],
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/simonecolucci/"
+      }
+    ],
+    "featured": false,
+    "order": 26,
+    "name": "Simone Colucci",
+    "title": "Head of Product @ xtream"
+  },
+  {
+    "id": "talia_asghar",
+    "bio": "Taley’a is a software engineer, having exposure to working in the product ecosystem for the more than seven years.    She has experience in diverse web and mobile technologies. She enjoys simplifying problems and making the user experience better for the product users.     She is an active contributor in the community and loves speaking at community events and conferences. Apart from this, she likes reading, art, and hiking to explore nature.",
+    "badges": [
+      {
+        "name": "gde",
+        "description": "Web Google Developer Expert",
+        "link": "https://developers.google.com/profile/u/taleyamirza"
+      }
+    ],
+    "socials": [
+      {
+        "link": "https://linkedin.com/in/taleyamirza",
+        "name": "LinkedIn",
+        "icon": "linkedin"
+      },
+      {
+        "link": "https://twitter.com/taleyamirza",
+        "icon": "twitter",
+        "name": "Twitter"
+      }
+    ],
+    "photoUrl": "https://sessionize.com/image/d4c4-400o400o1-HanMtzE6wdymMNyx2TEAyN.jpg",
+    "name": "Taley’a Mirza",
+    "order": 26,
+    "title": "Software Engineer at Delivery Hero and Google Dev Expert in Web Technologies",
+    "featured": true
+  },
+  {
+    "id": "thomas_kunneth",
+    "featured": false,
+    "title": "Senior Android Developer @snappmobile_io",
+    "name": "Thomas Künneth",
+    "order": 26,
+    "photoUrl": "https://sessionize.com/image/6833-400o400o1-XnzKp9ZD3bUWUGVhTAUdti.png",
+    "socials": [
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/thomaskuenneth/"
+      },
+      {
+        "link": "https://twitter.com/tkuenneth",
+        "icon": "twitter",
+        "name": "Twitter"
+      },
+      {
+        "name": "Website",
+        "icon": "website",
+        "link": "https://www.thomaskuenneth.de/"
+      }
+    ],
+    "badges": [
+      {
+        "link": "https://developers.google.com/profile/u/tkuenneth",
+        "description": "Android Google Developer Expert",
+        "name": "gde"
+      }
+    ],
+    "bio": "Thomas fell in love with Android in 2009. He has been constantly contributing to the community since then. Thomas loves writing books (four titles, 15 editions) and articles. He enjoys speaking at conferences and meetups. Thomas' first encounter with programming was in the era of home computers during the early 1980s. Later came C, Perl and a few more. During the 90s he wrote a bunch of programs for the Atari ST series. The first decade of Thomas' professional career centered around Java Enterprise. Today it’s all things Android and Kotlin."
+  },
+  {
+    "id": "yonatan_levin",
+    "featured": false,
+    "name": "Yonatan Levin",
+    "order": 26,
+    "title": "Developer at monday.com",
+    "photoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXU_Q9yIAzmc3m-b1T7iKEQsp9GZtHzAXPXGavAurfGSqHybFz77g=s300",
+    "bio": "I'm Yonatan, a seasoned startup professional with a trajectory from developer to founder. At Monday.com, I led the development of the Public API and formed a pivotal mobile team, and also co-founded the innovative genetics startup KolGene.  Recently, I've been focusing on Generative AI, leading its integration at Monday.com. Starting as a solo developer, I built a team that successfully launched AI solutions now enhancing our customer experience.  Beyond my professional role, I'm an avid speaker, traveling globally to share insights on Generative AI, software innovation, and personal development. These engagements reflect my passion for knowledge exchange and continuous learning.  Additionally, as a co-leader of Android Academy, I advocate for gender diversity and technological education, combining my professional expertise with a commitment to community enrichment and mentorship.",
+    "badges": [
+      {
+        "name": "gde",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/profile/u/yoni"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Linkedin",
+        "icon": "linkedin",
+        "link": "https://linkedin.com/in/levinyonatan"
+      },
+      {
+        "link": "https://twitter.com/parahall",
+        "icon": "twitter",
+        "name": "Twitter"
+      }
+    ]
+  }
+]

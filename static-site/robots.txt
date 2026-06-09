@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://devfest-milano-2024.web.app/sitemap.xml

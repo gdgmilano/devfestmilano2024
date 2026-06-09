@@ -1,0 +1,184 @@
+[
+  {
+    "id": "GSar5fHbLFTgoBfgMAxx",
+    "order": 0,
+    "title": "Main Sponsor",
+    "items": [
+      {
+        "id": "9cw4en2QBHeXBKQ8Ix1H",
+        "name": "Google",
+        "url": "https://www.google.it",
+        "order": "0",
+        "logoUrl": "https://devfest.gdgpisa.it/_astro/google.D4_SAEf_.svg"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "order": 1,
+    "title": "General Partner",
+    "items": [
+      {
+        "id": "000",
+        "order": 0,
+        "url": "https://www.google.com.ua/intl/en/about/",
+        "logoUrl": "../images/logos/google.svg",
+        "name": "Google"
+      },
+      {
+        "id": "001",
+        "name": "GDG[x]",
+        "logoUrl": "../images/logos/gdg-x.svg",
+        "order": 1,
+        "url": "https://github.com/gdg-x"
+      },
+      {
+        "id": "002",
+        "name": "Google",
+        "logoUrl": "../images/logos/google.svg",
+        "order": 2,
+        "url": "https://www.google.com.ua/intl/en/about/"
+      },
+      {
+        "id": "003",
+        "url": "https://github.com/gdg-x",
+        "order": 3,
+        "name": "GDG[x]",
+        "logoUrl": "../images/logos/gdg-x.svg"
+      },
+      {
+        "id": "004",
+        "url": "https://www.google.com.ua/intl/en/about/",
+        "order": 4,
+        "logoUrl": "../images/logos/google.svg",
+        "name": "Google"
+      },
+      {
+        "id": "005",
+        "name": "GDG[x]",
+        "logoUrl": "../images/logos/gdg-x.svg",
+        "url": "https://github.com/gdg-x",
+        "order": 5
+      },
+      {
+        "id": "006",
+        "name": "Google",
+        "logoUrl": "../images/logos/google.svg",
+        "order": 6,
+        "url": "https://www.google.com.ua/intl/en/about/"
+      },
+      {
+        "id": "007",
+        "order": 7,
+        "url": "https://github.com/gdg-x",
+        "logoUrl": "../images/logos/gdg-x.svg",
+        "name": "GDG[x]"
+      },
+      {
+        "id": "008",
+        "order": 8,
+        "url": "https://www.google.com.ua/intl/en/about/",
+        "logoUrl": "../images/logos/google.svg",
+        "name": "Google"
+      },
+      {
+        "id": "009",
+        "name": "GDG[x]",
+        "logoUrl": "../images/logos/gdg-x.svg",
+        "url": "https://github.com/gdg-x",
+        "order": 9
+      },
+      {
+        "id": "010",
+        "logoUrl": "../images/logos/google.svg",
+        "name": "Google",
+        "order": 10,
+        "url": "https://www.google.com.ua/intl/en/about/"
+      }
+    ]
+  },
+  {
+    "id": "nqlzEMxQSn6AWEoDSTIh",
+    "order": 1,
+    "title": "Platinum Sponsor",
+    "items": [
+      {
+        "id": "dMZUt3aE3r9e7lIbcqqz",
+        "name": "Datwave",
+        "order": 0,
+        "logoUrl": "../images/logos/datwave.png",
+        "url": "https://datwave.ai/"
+      }
+    ]
+  },
+  {
+    "id": "n54OR0TjyYxHpa7nik50",
+    "order": 4,
+    "title": "Media Partners",
+    "items": [
+      {
+        "id": "1Wt1s0k9fg4y0tHxT7Va",
+        "url": "https://gdg.community.dev/gdg-vicenza",
+        "order": "1",
+        "name": "GDG Vicenza",
+        "logoUrl": "../images/logos/gdg-vicenza.jpg"
+      },
+      {
+        "id": "508RLWompllsY3IO797H",
+        "url": "https://androiddevs.it",
+        "order": "2",
+        "logoUrl": "../images/logos/adi.svg",
+        "name": "Android Developers Italia"
+      },
+      {
+        "id": "GiulkQpVXGjQbQyhUFFq",
+        "logoUrl": "../images/logos/coder-dojo-milano.jpg",
+        "name": "Coder Dojo Milano",
+        "url": "https://coderdojomilano.it",
+        "order": "5"
+      },
+      {
+        "id": "imTiUInBNixbaDcTRSkB",
+        "name": "GDG Cloud Modena",
+        "logoUrl": "../images/logos/gdg-cloud-modena.jpg",
+        "order": "3",
+        "url": "https://gdg.community.dev/gdg-cloud-modena"
+      },
+      {
+        "id": "nUtLMDGgyfFAoW8PFFzO",
+        "order": "0",
+        "url": "https://gdg.community.dev/gdg-pisa",
+        "name": "GDG Pisa",
+        "logoUrl": "../images/logos/gdg-pisa.svg"
+      }
+    ]
+  },
+  {
+    "id": "13Oc5U6u2KzFlblSTKrb",
+    "title": "Hosting Partner",
+    "order": 5,
+    "items": [
+      {
+        "id": "THPr2zrDFnj1ARgJsCcE",
+        "order": "0",
+        "logoUrl": "../images/logos/randstad-box.png",
+        "name": "Randstad Box",
+        "url": "https://www.randstad.it/hr-solutions/randstadbox/"
+      }
+    ]
+  },
+  {
+    "id": "0",
+    "title": "Template Creator",
+    "order": 6,
+    "items": [
+      {
+        "id": "000",
+        "order": 0,
+        "logoUrl": "../images/logos/gdg-lviv.svg",
+        "url": "https://www.meetup.com/GDG-Lviv/",
+        "name": "GDG Lviv"
+      }
+    ]
+  }
+]
