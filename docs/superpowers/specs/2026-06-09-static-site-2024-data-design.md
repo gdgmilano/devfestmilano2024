@@ -87,17 +87,25 @@ imports from it (no behavior change to existing speaker pages).
 - **`build-schedule.mjs`** → `/schedule/index.html`: the 23 Nov 2024 agenda,
   14 timeslots × 5 tracks, each cell linking to its session. Doubles as the
   sessions index (the live SPA has no separate `/sessions` list).
-- **Static pages** `/faq`, `/coc`, `/location`, `/team`, `/speakers-info`:
-  `/team` generated from `team` data; the others either simple templated pages
-  or the 2025 snapshot stripped of "2025" references. (Resolved during planning
-  per page; default to clean templated pages for consistency.)
+- **Static pages** `/faq`, `/coc`, `/location`, `/speakers-info`: their text is
+  identical between 2024 and 2025 (user-confirmed), so **reuse the 2025 snapshot
+  as-is, stripped of "2025" / `devfest-milano-2025` references** (title, hero,
+  canonical, og tags) → "2024". No regeneration.
+- **`/team`**: **reuse the 2025 team page as-is** (user-confirmed; the `team`
+  docs have empty `members`), stripped of "2025" references like the others.
 
 ### Stage 3 — assets, cleanup, finalize
 - **Assets**: reuse `localize.mjs` + `asset-path.mjs`. Speaker/partner photos are
   absolute sessionize/storage URLs → downloaded locally; CSS `url()` rewritten.
 - **Cleanup of 2025 DSD snapshots**: delete non-2024 `/sessions/<id>` and
   `/speakers/<id>` directories (95→27, 72→28), and the heavy DSD `index.html` /
-  `404.html` replaced by templates. Remove `/previous-speakers/*`.
+  `404.html` replaced by templates. Remove `/previous-speakers/*`. **Keep**
+  `/faq`, `/coc`, `/location`, `/speakers-info`, `/team` (text identical between
+  editions) — only strip their "2025" references (see below).
+- **De-2025 the kept pages**: in `/faq`, `/coc`, `/location`, `/speakers-info`,
+  `/team` rewrite "DevFest Milano 2025"→"…2024", `devfest-milano-2025`→
+  `devfest-milano-2024`, canonical/og URLs, and any `2025-10-11`/date strings to
+  the 2024 equivalents. Done by a small `de2025.mjs` pass over kept HTML.
 - **finalize.mjs** (reused): `.nojekyll`, `robots.txt`, `sitemap.xml`,
   `404.html` for the 2024 routes; `SITE_YEAR=2024`, title/canonical for 2024.
 - **verify.mjs** (extended): counts (28 speakers, 27 talks, schedule = 1 day),
