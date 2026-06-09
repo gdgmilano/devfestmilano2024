@@ -1,0 +1,58 @@
+name: Deploy static site to GitHub Pages
+
+# Publishes the static archive (this branch's root) to GitHub Pages.
+# This branch (pages-static) is the static site itself: the built files live at
+# the repo root, with scripts/static/ kept only as the rebuild tooling.
+# In the repo: Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+# For a custom domain, add a CNAME (see scripts/static/README.md) and set it
+# under Settings -> Pages -> Custom domain.
+
+on:
+  push:
+    branches: [pages-static]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      # Stage only the site files; exclude the rebuild tooling and repo metadata
+      # so they aren't published to Pages.
+      - name: Stage site
+        run: |
+          rsync -a ./ ./_site/ \
+            --exclude '.git' \
+            --exclude '_site' \
+            --exclude 'scripts' \
+            --exclude 'docs' \
+            --exclude '.github' \
+            --exclude '.vscode' \
+            --exclude '.editorconfig' \
+            --exclude '.eslintrc.json' \
+            --exclude '.markdownlint.json' \
+            --exclude '.markdownlintignore' \
+            --exclude '.nvmrc' \
+            --exclude '.prettierignore' \
+            --exclude '.prettierrc.json' \
+            --exclude '.stylelintrc.json' \
+            --exclude 'README.md' \
+            --exclude 'LICENSE.md'
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
