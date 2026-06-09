@@ -91,4 +91,23 @@ if (brokenAssets.size) {
   console.log([...brokenAssets.keys()].slice(0, 20).map((k) => '   ' + k).join('\n'));
 }
 
-console.log(problems === 0 && brokenAssets.size === 0 ? '\nPASS' : `\nISSUES: ${problems + brokenAssets.size}`);
+// 2024 edition assertions: no "2025" left, expected page counts.
+let pages2025 = 0;
+for (const file of files) {
+  const html = await readFile(file, 'utf8');
+  if (/2025|devfest-milano-2025/.test(html)) {
+    pages2025++;
+    console.log(`  2025 ref: ${file.slice(OUT_DIR.length)}`);
+  }
+}
+const countOff = speakerPages !== 28 || sessionPages !== 27 || prevPages !== 0;
+console.log(`Pages citing 2025:      ${pages2025} (expect 0)`);
+console.log(`2024 counts ok:         ${!countOff} (speakers 28, sessions 27, previous 0)`);
+
+const edition2024Fail = pages2025 !== 0 || countOff;
+console.log(
+  problems === 0 && brokenAssets.size === 0 && !edition2024Fail
+    ? '\nPASS'
+    : `\nISSUES: ${problems + brokenAssets.size + pages2025 + (countOff ? 1 : 0)}`,
+);
+if (problems || brokenAssets.size || edition2024Fail) process.exitCode = 1;
