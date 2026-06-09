@@ -20,7 +20,7 @@ export async function finalize() {
   } catch {
     await writeFile(
       join(OUT_DIR, '404.html'),
-      '<!doctype html><meta charset="utf-8"><title>404 - DevFest Milano 2025</title>' +
+      '<!doctype html><meta charset="utf-8"><title>404 - Pagina non trovata</title>' +
         '<p style="font-family:sans-serif;text-align:center;margin-top:4rem">Pagina non trovata. ' +
         '<a href="/">Torna alla home</a></p>',
     );

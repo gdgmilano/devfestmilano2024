@@ -1,50 +1,32 @@
-// Orchestrator: run the full static build pipeline end to end.
-//   1. extract-data   -> Firestore JSON + route list
-//   2. crawl          -> pre-render every route (DSD) + queue assets
-//   3. postprocess    -> fix broken /assets photos with Firestore originals
-//   4. build-speakers -> template speaker/previous-speaker detail pages
-//   5. localize       -> download & localize all assets
-//   6. finalize       -> 404, .nojekyll, robots, sitemap, (CNAME)
-//
-// `node build.mjs --no-crawl` skips stages 1-2 and only refreshes the photo
-// fix, speaker pages, assets and finalize from existing crawled output (useful
-// when the live site is throttling re-crawls).
+// Orchestrator: build the static 2024 site entirely from Firestore data
+// (no crawl). Stages:
+//   1. extract-data    -> filtered 2024 JSON + routes
+//   2. build-home / speakers-list / sessions / schedule / speakers (detail)
+//   3. de2025          -> rewrite kept pages, prune non-2024 dirs
+//   4. localize        -> download all queued assets
+//   5. finalize        -> 404, .nojekyll, robots, sitemap
 import { extractData } from './extract-data.mjs';
-import { crawl } from './crawl.mjs';
-import { postprocess } from './postprocess.mjs';
+import { buildHome } from './build-home.mjs';
+import { buildSpeakersList } from './build-speakers-list.mjs';
 import { buildSpeakers } from './build-speakers.mjs';
+import { buildSessions } from './build-sessions.mjs';
+import { buildSchedule } from './build-schedule.mjs';
+import { runDe2025 } from './de2025.mjs';
 import { localize } from './localize.mjs';
 import { finalize } from './finalize.mjs';
 
-const noCrawl = process.argv.includes('--no-crawl');
-
 async function main() {
-  if (!noCrawl) {
-    console.log('\n[1/6] Extracting Firestore data...');
-    await extractData();
-    console.log('\n[2/6] Crawling & pre-rendering routes...');
-    await crawl();
-  } else {
-    console.log('\n[1-2/6] Skipped (--no-crawl): using existing crawled output.');
-    // Photo fix + dynamic-UI strip is applied inline during crawl; only needed
-    // as a separate offline pass when reusing already-crawled output.
-    console.log('\n[3/6] Fixing photos + stripping dynamic UI (offline)...');
-    await postprocess();
-  }
-
-  console.log('\n[4/6] Building speaker detail pages...');
-  await buildSpeakers();
-
-  console.log('\n[5/6] Localizing assets...');
-  await localize();
-
-  console.log('\n[6/6] Finalizing...');
-  await finalize();
-
+  console.log('\n[1/9] Extracting 2024 Firestore data...');
+  await extractData();
+  console.log('\n[2/9] Home...');           await buildHome();
+  console.log('\n[3/9] Speakers list...');  await buildSpeakersList();
+  console.log('\n[4/9] Speaker pages...');  await buildSpeakers();
+  console.log('\n[5/9] Session pages...');  await buildSessions();
+  console.log('\n[6/9] Schedule...');       await buildSchedule();
+  console.log('\n[7/9] De-2025 + prune...'); await runDe2025();
+  console.log('\n[8/9] Localizing assets...'); await localize();
+  console.log('\n[9/9] Finalizing...');     await finalize();
   console.log('\nDone.');
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+main().catch((e) => { console.error(e); process.exit(1); });
