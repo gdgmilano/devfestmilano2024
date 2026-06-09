@@ -1,0 +1,15 @@
+{
+  "name": "devfest-static-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static GitHub Pages archive builder for DevFest Milano 2025",
+  "scripts": {
+    "data": "node extract-data.mjs",
+    "crawl": "node crawl.mjs",
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
