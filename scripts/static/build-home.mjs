@@ -12,7 +12,13 @@ export async function buildHome() {
   const assets = new Map();
 
   const partnerBlocks = partners.map((g) => {
+    // The Firestore data repeats some logos within a group (e.g. General
+    // Partner lists Google/GDG[x] many times) — show each distinct logo once.
+    const seen = new Set();
     const logos = (g.items || []).map((it) => {
+      const key = `${it.name || ''}|${it.logoUrl || it.logo || ''}`;
+      if (seen.has(key)) return '';
+      seen.add(key);
       const ref = resolveAssetRef(it.logoUrl || it.logo);
       if (!ref) return '';
       if (ref.remote) assets.set(ref.local, ref.remote);
